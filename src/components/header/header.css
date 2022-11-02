@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    align-items: center;
+}
+.menu{
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon{
+    font-size: 24px;
+}
+
+.mobile-menu{
+    display: none;
+}
+.web-menu{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    font-size: 36px;
+    color: #27C3C0;
+    font-weight: 200;
+}
+
+.goTop {
+    position: fixed;
+    bottom: 50px;
+    padding: 10px 13px;
+    border-radius: 50px;
+    border: none;
+    background: #27C3C0;
+}
+
+.goTop a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 780px) {
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+    .logo{
+        font-size: 24px;
+    }
+}
