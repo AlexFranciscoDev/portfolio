@@ -46,6 +46,12 @@
     margin-bottom: -5px;
 }
 
+@media only screen and (max-width: 875px) {
+    .goTop {
+        right: 20px;
+    }
+}
+
 @media only screen and (max-width: 780px) {
     .mobile-menu{
         display: flex;

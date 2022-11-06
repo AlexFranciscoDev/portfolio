@@ -9,7 +9,7 @@
 }
 
 .picture {
-    height: 420px;
+    height: 490px;
 }
 
 .about-info {
@@ -53,11 +53,11 @@
     }
 
     .picture {
-        height: 280px;
+        height: 360px;
     }
 
     .about-info {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .info-name {

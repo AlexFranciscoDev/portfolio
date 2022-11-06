@@ -1,10 +1,10 @@
 export const ProjectData=[
     {
         id:1,
-        title:"Grégory Jaccottet - Redesign",
-        about: "En Cours",
-        tags:["ReactJS", "TypeScript", "Ghost CMS", "Html/Css"],
-        url:"https://www.gregoryjaccottet.com",
+        title:"Bonsai App",
+        about: "Recreation of the pricing page from the website 'hellobonsai', which is one of the challenges from Frontend Practice. This one was the first landing page I made using React and SASS to learn about components and styling them",
+        tags:["ReactJS", "SASS", "HTML", "Javascript"],
+        url:"https://bonsai-app-alexfranciscodev.herokuapp.com/",
         image:"https://github.com/ThantZinPhyo-OP/lisandromartinez/raw/main/previews.png",
     },
     {

@@ -1,0 +1,7 @@
+.description-container {
+    display: flex;
+}
+
+.description-container .description-photo img {
+    height: 350px;
+}
