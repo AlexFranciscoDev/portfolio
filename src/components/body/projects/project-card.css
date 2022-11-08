@@ -3,19 +3,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 16px 0px;
+    margin: 40px 0px;
     padding: 8px 0px;
 }
 .project-photo{
     width: 40%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.7s all ease;
+}
+
+.project-photo:hover {
+    transform: translateY(-10px);
 }
 
 .project-info{
-    margin-right: 24px;
+    margin-right: 42px;
 }
 
 .project-title{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -27,19 +34,20 @@
 
 .tag {
     padding:  4px 8px;
-    background-color: blue;
+    background-color: #51CCD4;
     border-radius: 4px;
+    color: #ffff;
     margin-right: 6px;
     margin-bottom: 4px;
 }
 
 .project-links a {
     text-decoration: none;
-    color: black;
+    color: #ffff;
 }
 
 .project-links{
-    margin-top: 6px;
+    margin-top: 10px;
     display: flex;
 }
 
@@ -47,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #51CCD4;
     width: max-content;
     padding: 4px 8px;
     border-radius: 4px;
@@ -59,14 +67,26 @@
     display: flex;
     align-items: center;
     mask-repeat: 4px;
+    margin-right: 7px;
+}
+
+.devicon-github-original.colored, .devicon-github-original-wordmark.colored, .devicon-github-plain.colored {
+    color: #ffff;
 }
 
 @media only screen and (max-width: 720px) {
     .project-photo {
-        width: 70%;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     .project-card {
         flex-direction: column-reverse;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .project-title {
+        font-size: 41px;
     }
     .project-info {
         margin-left: 0px;

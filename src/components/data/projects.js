@@ -39,7 +39,7 @@ export const ProjectData=[
         id:5,
         title:"Portal de prácticas",
         about: "One of the projects made during school with PHP and the framework Laravel. It works as a website to help students found internships offers. This project works with a Backend which contains the offers and data of the users who sign in the website",
-        tags:["HTML", "CSS", "PHP", "Laravel", "GIT", "MYSQL"],
+        tags:["HTML", "Bootstrap", "PHP", "Laravel", "GIT", "MYSQL"],
         github:"https://github.com/AlexFranciscoDev/krunkers-portal-practicas",
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/krunkers_practicas.png?raw=true",
     },
@@ -47,7 +47,7 @@ export const ProjectData=[
         id:6,
         title:"Informa fit",
         about: "This was my final project to get the Web Development degree. There are two users (trainers and users). The trainers are able to create, update and delete gym routines and the users have the possibility to follow these routines and see their progress during each day.",
-        tags:["HTML", "CSS", "PHP", "Laravel", "GIT", "MYSQL"],
+        tags:["HTML", "Bootstrap", "PHP", "Laravel", "GIT", "MYSQL"],
         github:"https://gitlab.com/iaw43568322/krunkersfitness",
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/informafit.png?raw=true",
     }

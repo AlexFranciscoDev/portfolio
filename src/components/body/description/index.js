@@ -10,7 +10,7 @@ function Description() {
       <div className="description-container">
         <div className="description-photo">
           <img
-            src={require("../../../assets/web.png")}
+            src={require("../../../assets/alex.png")}
             className="picture"
 
           />
