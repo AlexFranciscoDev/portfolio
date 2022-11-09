@@ -6,7 +6,8 @@
 .skills-section {
     display: flex;
     justify-content: space-between;
-    margin: 12px 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .skills-section-title {
     font-size: 24px;

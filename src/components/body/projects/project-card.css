@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0px;
+    margin: 30px 0px;
     padding: 8px 0px;
 }
 .project-photo{
@@ -94,5 +94,11 @@
     }
     .project-tags {
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .project-card {
+        margin: 30px 0px;
     }
 }

@@ -12,6 +12,11 @@
 
 .skill-icon {
     font-size: 80px;
+    transition: 300ms all ease-in;
+}
+
+.skill-icon:hover {
+  transform: translateY(-10px);
 }
 
 .skill-name{

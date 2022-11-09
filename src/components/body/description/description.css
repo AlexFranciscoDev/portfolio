@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .description-container .description-photo img {
@@ -10,12 +12,13 @@
     margin-right: 60px;
 }
 
-@media only screen and (max-width: 795px) {
+@media only screen and (max-width: 720px) {
     .description-container {
         flex-direction: column;
     }
 
     .description-container .description-photo img {
         height: 250px;
+        margin: 0 auto;
     }
 }
