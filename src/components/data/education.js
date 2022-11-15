@@ -9,6 +9,7 @@ export const EducationData = [
         name: "CFGS Web Development" ,
         dateJoining: "2018",
         dateEnd: "2021",
+        companyLogo: "https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/escola_treball.png",
         description:"Degree on Web Development, learnigh the fundamentals of programmin with languages such as HTML, CSS, JS, JAVA, databases and other languages to develop websites"
     },
     {

@@ -15,7 +15,12 @@ function Web() {
     </div>
     <div className="web-option">
         <a href="#skills">
-        Skills
+        Skills & Languages
+        </a>
+    </div>
+    <div className="web-option">
+        <a href="#education">
+        Education
         </a>
     </div>
     <div className="web-option">

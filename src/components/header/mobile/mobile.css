@@ -43,3 +43,9 @@
 .mobile-option a:hover {
     transform: translateX(10px);
 }
+
+@media only screen and (max-width: 1125px) {
+    .mobile {
+        right: -28px;
+  }
+}

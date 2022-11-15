@@ -4,7 +4,7 @@ export const WorkData = [
         designation: "Web developer",
         dateJoining: "2021",
         dateEnd: "Present",
-        companyLogo: process.env.PUBLIC_URL + "/img/alex.png",
+        companyLogo: "https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/designing_code.png",
         work:"Build websites with Wordpress, HTML, CSS, JS and PHP",
     },
     {

@@ -50,5 +50,21 @@ export const ProjectData=[
         tags:["HTML", "Bootstrap", "PHP", "Laravel", "GIT", "MYSQL"],
         github:"https://gitlab.com/iaw43568322/krunkersfitness",
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/informafit.png?raw=true",
+    },
+    {
+        id:7,
+        title:"Helen's Make up",
+        about: "Corporate Website made for a Professional Make up artist to promote her services",
+        tags:["HTML", "CSS", "Wordpress"],
+        demo:"https://helensmakeup.com/",
+        image:"https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/helensmakeup.png",
+    },
+    {
+        id:7,
+        title:"Maria Pelazas",
+        about: "Website made for a nutritional coach and influencer to sell her books and show healthy recipes.",
+        tags:["Wordpress", "CSS", "Woocommerce", "Mailchimp", "Google Analytics"],
+        demo:"https://mariapelazas.com/",
+        image:"https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/maria_pelazas.png",
     }
 ];
