@@ -3,6 +3,7 @@ import "./body.css";
 import About from "./about/index";
 import Projects from "./projects/index";
 import Skills from "./skills/index";
+import Education from "./education/index";
 import Work from "./work/index";
 import Contact from "./contact/index";
 import Description from "./description/index";
@@ -21,6 +22,9 @@ function Body() {
     </section>
     <section id="skills">
       <Skills />
+    </section>
+    <section id="education">
+      <Education/>
     </section>
     <section id="work">
       <Work />

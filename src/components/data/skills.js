@@ -82,4 +82,21 @@ export const SkillsData = [
       },
     ],
   },
+  {
+    type: "Languages",
+    list: [
+      {
+        name: "Spanish - High",
+        icon: <img  src={require("../../assets/spain-flag.png")} width="100"/>
+      },
+      {
+        name: "Catalan - High",
+        icon: <img  src={require("../../assets/catalan-flag.png")} width="100"/>
+      },
+      {
+        name: "English - Intermediate",
+        icon: <img  src={require("../../assets/english-flag.png")} width="100"/>
+      }
+    ],
+  }
 ];

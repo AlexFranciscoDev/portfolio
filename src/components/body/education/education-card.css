@@ -1,0 +1,40 @@
+.education-card {
+    padding: 8px;
+    width: 45%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.education-logo {
+    height: 80px;
+}
+
+.education-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.education-dates {
+    color: black;
+}
+
+.education-desc {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: horizontal;
+    overflow: hidden ;
+    text-overflow: ellipsis;
+    max-width: 80%;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .education-card{
+        width: 100%;
+    }
+}

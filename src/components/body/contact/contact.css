@@ -13,5 +13,5 @@
     flex: 1;
     justify-content: center;
     text-align: center;
-    
+    flex-direction: row;
 }
