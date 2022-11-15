@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <div className="header sticky">
-      <div className="logo"><img src="" alt="logo"/></div>
+      <div className="logo"><img src="https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/logo.png" width="180" alt="logo"/></div>
       <div className="menu">
         <div className="web-menu">
           <Web />
