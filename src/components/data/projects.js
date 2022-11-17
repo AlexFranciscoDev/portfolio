@@ -55,7 +55,7 @@ export const ProjectData=[
         id:7,
         title:"Helen's Make up",
         about: "Corporate Website made for a Professional Make up artist to promote her services",
-        tags:["HTML", "CSS", "Wordpress"],
+        tags:["HTML", "CSS", "Wordpress", "Elementor"],
         demo:"https://helensmakeup.com/",
         image:"https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/helensmakeup.png",
     },
@@ -63,7 +63,7 @@ export const ProjectData=[
         id:7,
         title:"Maria Pelazas",
         about: "Website made for a nutritional coach and influencer to sell her books and show healthy recipes.",
-        tags:["Wordpress", "CSS", "Woocommerce", "Mailchimp", "Google Analytics"],
+        tags:["Wordpress", "CSS", "Woocommerce", "Mailchimp", "Google Analytics", "Elementor"],
         demo:"https://mariapelazas.com/",
         image:"https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/maria_pelazas.png",
     }
