@@ -48,4 +48,9 @@
     .education-card{
         width: 100%;
     }
+
+    .education-desc {
+        text-align: justify;
+        max-width: 100%;
+    }
 }

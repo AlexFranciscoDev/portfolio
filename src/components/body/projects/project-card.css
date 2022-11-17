@@ -86,14 +86,19 @@
         margin-bottom: 60px;
     }
     .project-title {
-        font-size: 41px;
+        font-size: 33px;
     }
     .project-info {
         margin-left: 0px;
         margin-top: 12px;
+        text-align: justify;
     }
     .project-tags {
         max-width: 100%;
+    }
+
+    .project-about {
+        text-align: justify;
     }
 }
 
