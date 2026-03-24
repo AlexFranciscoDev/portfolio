@@ -1,6 +1,15 @@
 export const ProjectData=[
     {
         id:1,
+        title:"Social blog",
+        about: "Full-stack social blogging platform where users can create accounts, publish posts, upload images and explore content from other users. The project was built using the MERN stack (MongoDB, Express, React, Node.js) and includes authentication with JWT, REST API architecture, and a responsive frontend built with React and Tailwind. The goal of the project was to practice building a complete full-stack application with user interaction, CRUD operations and media handling.",
+        tags:["ReactJS","NodeJS","Express","MongoDB","JWT","REST API","Tailwind"],
+        demo: "https://blog-social-frontend.vercel.app/",
+        github: "https://github.com/AlexFranciscoDev/Blog-social-frontend",
+        image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/social-blog.png?raw=true",
+    },
+        {
+        id:2,
         title:"Bonsai App",
         about: "Recreation of the pricing page from the website 'hellobonsai', which is one of the challenges from Frontend Practice. This one was the first landing page I made using React and SASS to learn about components and styling them",
         tags:["ReactJS", "SASS", "HTML", "Javascript"],
@@ -9,7 +18,7 @@ export const ProjectData=[
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/bonsai_app.png?raw=true",
     },
     {
-        id:2,
+        id:3,
         title:"Interactive card",
         about: "Challenge from Frontend mentor. This challenge consists on a form which if the user types in, the credit card information will change at the same time. I also included form validation, which returns messages to the user if the card has been succesfully validated.",
         tags:["ReactJS", "HTML", "CSS", "Javascript"],
@@ -18,7 +27,7 @@ export const ProjectData=[
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/interactive-card.png?raw=true",
     },
     {
-        id:3,
+        id:4,
         title:"Pokedex App",
         about: "Basic pokédex using the pokémon API PokeAPI. The user will be able to see a list of pokémon, and have the possibility to show it's stats. Also, the user can search a pokémon by name and show more pokémon clicking on the previous and next buttons",
         tags:["ReactJS", "HTML", "SASS", "API Rest"],
@@ -27,7 +36,7 @@ export const ProjectData=[
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/pokedex.png?raw=true",
     },
     {
-        id:4,
+        id:5,
         title:"Weather App",
         about: "App to display the current and forecast weather from a city. The data comes from the API openweathermap",
         tags:["ReactJS", "HTML", "SASS", "API Rest"],
@@ -36,7 +45,7 @@ export const ProjectData=[
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/weather_app.png?raw=true",
     },
     {
-        id:5,
+        id:6,
         title:"Portal de prácticas",
         about: "One of the projects made during school with PHP and the framework Laravel. It works as a website to help students found internships offers. This project works with a Backend which contains the offers and data of the users who sign in the website",
         tags:["HTML", "Bootstrap", "PHP", "Laravel", "GIT", "MYSQL"],
@@ -44,7 +53,7 @@ export const ProjectData=[
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/krunkers_practicas.png?raw=true",
     },
     {
-        id:6,
+        id:7,
         title:"Informa fit",
         about: "This was my final project to get the Web Development degree. There are two users (trainers and users). The trainers are able to create, update and delete gym routines and the users have the possibility to follow these routines and see their progress during each day.",
         tags:["HTML", "Bootstrap", "PHP", "Laravel", "GIT", "MYSQL"],
@@ -52,7 +61,7 @@ export const ProjectData=[
         image:"https://github.com/AlexFranciscoDev/portfolio/blob/main/src/assets/informafit.png?raw=true",
     },
     {
-        id:7,
+        id:8,
         title:"Helen's Make up",
         about: "Corporate Website made for a Professional Make up artist to promote her services",
         tags:["HTML", "CSS", "Wordpress", "Elementor"],
@@ -60,7 +69,7 @@ export const ProjectData=[
         image:"https://raw.githubusercontent.com/AlexFranciscoDev/portfolio/main/src/assets/helensmakeup.png",
     },
     {
-        id:7,
+        id:9,
         title:"Maria Pelazas",
         about: "Website made for a nutritional coach and influencer to sell her books and show healthy recipes.",
         tags:["Wordpress", "CSS", "Woocommerce", "Mailchimp", "Google Analytics", "Elementor"],
