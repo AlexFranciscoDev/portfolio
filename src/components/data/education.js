@@ -18,5 +18,12 @@ export const EducationData = [
         dateEnd: "2020",
         companyLogo:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png",
         description:"Online course where i've learn't knowledge about CSS, SASS and LESS and the framework Bootstrap."
+    },
+    {
+        name: "Master in React: ReactJS, Hooks, MERN, NodeJS, JWT+" ,
+        dateJoining: "2024",
+        dateEnd: "2024",
+        companyLogo:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png",
+        description:"Online course where i've learn't to create full apps with React as the frontend and Express, JWT, Mongoose for the backend."
     }
 ]

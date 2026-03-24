@@ -25,8 +25,8 @@ export const SkillsData = [
 
       },
       {
-        name: "SASS",
-        icon: <i class="devicon-sass-original colored"></i>
+        name: "Tailwind",
+        icon: <i class="devicon-tailwindcss-original colored"></i>
       },
       {
         name: "Jquery",
@@ -37,10 +37,6 @@ export const SkillsData = [
   {
     type : "Back-End",
     list : [
-      {
-        name: "Java",
-        icon: <i class="devicon-java-plain colored"></i>
-      },
       {
         name: "MySQL",
         icon: <i class="devicon-mysql-plain colored"></i>
@@ -56,6 +52,11 @@ export const SkillsData = [
       {
         name: "NodeJS",
         icon: <i class="devicon-nodejs-plain colored"></i>
+      
+      },
+      {
+        name: "Express",
+        icon: <i class="devicon-express-original colored"></i>
       
       }
     ]
