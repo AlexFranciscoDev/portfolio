@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/plus-jakarta-sans-var.woff2") format("woff2");
+}
+
+@theme {
+  /* light surfaces */
+  --color-paper: #faf9f5;
+  --color-paper-alt: #f1eee6;
+  --color-surface: #ffffff;
+  --color-ink: #17160f;
+  --color-muted: #726c5e;
+  --color-line: #e1dccc;
+  --color-line-strong: #cfc8b4;
+
+  /* dark surfaces (Other Work, Contact/Footer) */
+  --color-coal: #101012;
+  --color-coal-alt: #17171a;
+  --color-bone: #f4f2ea;
+  --color-muted-dark: #9a968a;
+  --color-line-dark: #2b2b2c;
+
+  /* accent */
+  --color-teal: #146661;
+  --color-teal-hover: #0e4642;
+  --color-teal-dark: #35a69e;
+  --color-teal-dark-hover: #4fc2b9;
+
+  /* state */
+  --color-moss: #3f7a52;
+  --color-moss-dark: #6fcb8b;
+  --color-rust: #a8382b;
+  --color-rust-dark: #e0685a;
+
+  /* type — single family everywhere, Mobbin-style. --font-mono is kept only so
+     existing `font-mono` utility classes (kickers, tags, labels) don't need
+     touching one by one; it now points at the same face as --font-sans. */
+  --font-sans: "Plus Jakarta Sans", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Plus Jakarta Sans", -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+  --font-size-hero: clamp(2.75rem, 1.5rem + 6vw, 6.5rem);
+  --font-size-h1: clamp(2.25rem, 1.4rem + 3.5vw, 4rem);
+  --font-size-h2: clamp(1.75rem, 1.3rem + 2vw, 3rem);
+  --font-size-h3: clamp(1.375rem, 1.1rem + 1.2vw, 2rem);
+  --font-size-h4: clamp(1.125rem, 1rem + 0.6vw, 1.5rem);
+  --font-size-body-lg: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-teal);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+  letter-spacing: -0.01em;
+}
+
+/* underline-swap link treatment: used for case study / demo / github / nav links */
+.link-swap {
+  position: relative;
+}
+.link-swap::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  transform-origin: right;
+  transform: scaleX(1);
+  transition: transform 0.3s var(--ease-io);
+}
+.link-swap:hover::after,
+.link-swap:focus-visible::after {
+  animation: link-swap-anim 0.45s var(--ease-io);
+}
+@keyframes link-swap-anim {
+  0% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  50% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  51% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* section reveal: opacity + translateY, driven by the useScrollReveal hook */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.6s var(--ease-out-expo),
+    transform 0.6s var(--ease-out-expo);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* image hover: subtle premium scale, container needs overflow-hidden */
+.img-hover {
+  transition: transform 0.5s var(--ease-io);
+}
+.img-hover-trigger:hover .img-hover {
+  transform: scale(1.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
