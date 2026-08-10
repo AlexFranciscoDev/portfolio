@@ -3,7 +3,7 @@ export const site = {
   role: "Frontend & Web Developer",
   location: "Barcelona, Spain",
   email: "alexbcn98@gmail.com",
-  availability: "Available for freelance work",
+  availability: "Open to freelance & full-time",
   tagline: "React, JavaScript and modern frontend.",
   experienceLine: "Nearly 5 years of professional web development experience.",
   seoDescription:

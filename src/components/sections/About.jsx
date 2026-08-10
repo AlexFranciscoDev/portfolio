@@ -28,7 +28,7 @@ export function About() {
         </Reveal>
 
         <Reveal delay={100} className="img-hover-trigger lg:col-span-5 lg:self-end">
-          <div className="overflow-hidden border border-line">
+          <div className="max-w-[420px] overflow-hidden rounded-2xl border border-line">
             <img
               src={alexPhoto}
               alt="Portrait of Alex Francisco"

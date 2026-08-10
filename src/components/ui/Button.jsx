@@ -13,7 +13,7 @@ const VARIANTS = {
 
 export function Button({ as, to, href, variant = "primary", className, children, ...props }) {
   const classes = clsx(
-    "inline-flex w-fit items-center gap-2 rounded-sm font-medium text-[15px] tracking-[0.01em] transition-[background-color,border-color,color,transform] duration-200 ease-io",
+    "inline-flex w-fit items-center gap-2 rounded-full font-semibold text-[15px] tracking-[0.01em] transition-[background-color,border-color,color,transform] duration-200 ease-io",
     VARIANTS[variant],
     className,
   );

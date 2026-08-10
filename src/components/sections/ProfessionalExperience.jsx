@@ -42,8 +42,8 @@ export function ProfessionalExperience() {
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
             {experience.selectedWork.map((work, index) => (
               <Reveal key={work.name} delay={index * 90} className="img-hover-trigger">
-                <a href={work.url} target="_blank" rel="noreferrer" className="group block overflow-hidden">
-                  <div className="relative overflow-hidden border border-line">
+                <a href={work.url} target="_blank" rel="noreferrer" className="group block overflow-hidden rounded-lg">
+                  <div className="relative overflow-hidden rounded-lg border border-line">
                     <img
                       src={work.image}
                       alt={`${work.name} website screenshot`}

@@ -8,10 +8,10 @@ export function OtherWork() {
   const projects = getOtherProjects();
 
   return (
-    <section id="other-work" className="bg-coal py-24 sm:py-32">
+    <section id="other-work" className="py-24 sm:py-32">
       <Container>
         <Reveal>
-          <SectionTitle kicker="Other Work" title="Smaller builds and practice challenges." dark />
+          <SectionTitle kicker="Other Work" title="Smaller builds and practice challenges." />
         </Reveal>
 
         <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3">

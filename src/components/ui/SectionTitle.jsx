@@ -1,8 +1,8 @@
 import clsx from "clsx";
 
-export function SectionTitle({ kicker, title, dark = false, className, titleClassName }) {
+export function SectionTitle({ kicker, title, dark = false, centered = false, className, titleClassName }) {
   return (
-    <div className={clsx("max-w-2xl", className)}>
+    <div className={clsx("max-w-2xl", centered && "mx-auto text-center", className)}>
       {kicker && (
         <p
           className={clsx(

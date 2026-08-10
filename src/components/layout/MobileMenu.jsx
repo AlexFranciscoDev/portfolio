@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { X } from "lucide-react";
+import { ArrowDownToLine, X } from "lucide-react";
 import { social } from "../../data/social";
 
-export function MobileMenu({ open, onClose, items }) {
+export function MobileMenu({ open, onClose, items, cvHref = "/cv.pdf" }) {
   const panelRef = useRef(null);
   const closeButtonRef = useRef(null);
   const triggerRef = useRef(null);
@@ -78,7 +78,11 @@ export function MobileMenu({ open, onClose, items }) {
         ))}
       </nav>
 
-      <div className="flex gap-6 border-t border-line py-8 font-mono text-xs uppercase tracking-[0.06em] text-muted">
+      <div className="flex flex-wrap gap-6 border-t border-line py-8 font-mono text-xs uppercase tracking-[0.06em] text-muted">
+        <a href={cvHref} download className="flex items-center gap-1.5 hover:text-ink">
+          <ArrowDownToLine size={13} strokeWidth={1.8} aria-hidden="true" />
+          Download CV
+        </a>
         {social.slice(1).map((item) => (
           <a
             key={item.platform}

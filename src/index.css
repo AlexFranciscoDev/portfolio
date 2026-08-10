@@ -10,26 +10,28 @@
 
 @theme {
   /* light surfaces */
-  --color-paper: #faf9f5;
-  --color-paper-alt: #f1eee6;
+  --color-paper: #fbfbf9;
+  --color-paper-alt: #f2f1ec;
   --color-surface: #ffffff;
-  --color-ink: #17160f;
-  --color-muted: #726c5e;
-  --color-line: #e1dccc;
-  --color-line-strong: #cfc8b4;
+  --color-ink: #12151a;
+  --color-muted: #565c64;
+  --color-muted-2: #8b9296;
+  --color-line: #e7e5dd;
+  --color-line-strong: #d8d5cb;
 
-  /* dark surfaces (Other Work, Contact/Footer) */
-  --color-coal: #101012;
+  /* dark surfaces (Contact/Footer) */
+  --color-coal: #0e1113;
   --color-coal-alt: #17171a;
   --color-bone: #f4f2ea;
   --color-muted-dark: #9a968a;
   --color-line-dark: #2b2b2c;
 
-  /* accent */
-  --color-teal: #146661;
-  --color-teal-hover: #0e4642;
-  --color-teal-dark: #35a69e;
-  --color-teal-dark-hover: #4fc2b9;
+  /* accent — turquoise, matches the logo */
+  --color-teal: #1fc2b8;
+  --color-teal-hover: #17a69d;
+  --color-teal-dark: #17a69d;
+  --color-teal-dark-hover: #1fc2b8;
+  --color-teal-tint: #e4f8f6;
 
   /* state */
   --color-moss: #3f7a52;
@@ -43,15 +45,18 @@
   --font-sans: "Plus Jakarta Sans", -apple-system, "Helvetica Neue", Arial, sans-serif;
   --font-mono: "Plus Jakarta Sans", -apple-system, "Helvetica Neue", Arial, sans-serif;
 
-  --font-size-hero: clamp(2.75rem, 1.5rem + 6vw, 6.5rem);
+  --font-size-hero: clamp(2.25rem, 1.3rem + 4.5vw, 5rem);
   --font-size-h1: clamp(2.25rem, 1.4rem + 3.5vw, 4rem);
   --font-size-h2: clamp(1.75rem, 1.3rem + 2vw, 3rem);
   --font-size-h3: clamp(1.375rem, 1.1rem + 1.2vw, 2rem);
   --font-size-h4: clamp(1.125rem, 1rem + 0.6vw, 1.5rem);
   --font-size-body-lg: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
 
-  --radius-sm: 2px;
-  --radius-md: 4px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 20px;
+  --radius-2xl: 22px;
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-io: cubic-bezier(0.4, 0, 0.2, 1);

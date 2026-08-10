@@ -43,7 +43,7 @@ export function ContactForm() {
   const [status, setStatus] = useState("idle"); // idle | sending | success | error
 
   const inputClass =
-    "w-full border-0 border-b border-line-dark bg-transparent px-0 py-2.5 text-bone placeholder:text-muted-dark/70 transition-[border-color] duration-200 ease-io focus:border-b-2 focus:border-teal-dark focus:outline-none";
+    "w-full rounded-[14px] border border-line-dark bg-coal-alt px-4 py-3.5 text-bone placeholder:text-muted-dark/70 transition-[border-color] duration-200 ease-io focus:border-teal-dark focus:outline-none";
 
   function handleChange(field) {
     return (event) => setValues((v) => ({ ...v, [field]: event.target.value }));
@@ -84,7 +84,7 @@ export function ContactForm() {
 
   if (status === "success") {
     return (
-      <div role="status" aria-live="polite" className="border border-moss-dark/40 bg-moss-dark/10 p-8">
+      <div role="status" aria-live="polite" className="rounded-2xl border border-moss-dark/40 bg-moss-dark/10 p-8">
         <p className="text-lg font-medium text-bone">Message sent.</p>
         <p className="mt-2 text-sm text-muted-dark">I'll get back to you within 24–48h.</p>
         <button

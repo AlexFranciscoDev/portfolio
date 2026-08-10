@@ -4,7 +4,7 @@ export function Badge({ children, dark = false, className }) {
   return (
     <span
       className={clsx(
-        "rounded-sm border px-2.5 py-1 font-mono text-xs tracking-[0.02em]",
+        "rounded-full border px-4 py-1.5 text-[13px] font-medium tracking-[0.01em]",
         dark ? "border-line-dark text-muted-dark" : "border-line text-muted",
         className,
       )}
