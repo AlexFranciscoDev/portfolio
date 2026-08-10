@@ -2,6 +2,7 @@ import { useScrollToHash } from "../hooks/useScrollToHash";
 import { Hero } from "../components/sections/Hero";
 import { SelectedWork } from "../components/sections/SelectedWork";
 import { ProfessionalExperience } from "../components/sections/ProfessionalExperience";
+import { ElementorWork } from "../components/sections/ElementorWork";
 import { Services } from "../components/sections/Services";
 import { OtherWork } from "../components/sections/OtherWork";
 import { About } from "../components/sections/About";
@@ -16,6 +17,7 @@ export function Home() {
       <Hero />
       <SelectedWork />
       <ProfessionalExperience />
+      <ElementorWork />
       <Services />
       <OtherWork />
       <About />

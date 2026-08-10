@@ -1,14 +1,14 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Container } from "../ui/Container";
 import { Reveal } from "../ui/Reveal";
 import { ContactForm } from "./ContactForm";
 import { social } from "../../data/social";
 
-const ICONS = { mail: Mail, linkedin: Linkedin, github: Github };
+const ICONS = { mail: Mail, linkedin: Linkedin, github: Github, phone: Phone };
 
 export function Contact() {
   return (
-    <section id="contact" className="bg-coal py-24 text-bone sm:py-32">
+    <section id="contact" className="bg-ink py-24 text-bone sm:py-32">
       <Container className="grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-8">
         <div className="lg:col-span-5">
           <Reveal>
