@@ -33,7 +33,7 @@ export function ProjectFeatured({ project, index }) {
         )}
 
         <div className="mt-8">
-          <Button to={`/projects/${project.slug}`} variant="text">
+          <Button to={`/projects/${project.slug}`} variant="text" className="flex flex-row">
             View case study
             <ArrowUpRight size={16} strokeWidth={1.5} aria-hidden="true" />
           </Button>
