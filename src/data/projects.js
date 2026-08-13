@@ -1,3 +1,4 @@
+import videoOrganizerCover from "../assets/projects/video-organizer/cover.jpg";
 import socialBlogCover from "../assets/projects/social-blog/cover.jpg";
 import bonsaiCover from "../assets/projects/bonsai-landing/cover.jpg";
 import interactiveCardCover from "../assets/projects/interactive-card/cover.jpg";
@@ -10,15 +11,33 @@ export const projects = [
     slug: "video-organizer",
     title: "Video Organizer",
     category: "featured",
-    year: 2025,
-    isPlaceholder: true,
-    shortDescription: "Case study content pending.",
-    tags: ["React", "Node.js"],
-    links: {},
-    images: { cover: null },
+    year: 2026,
+    shortDescription: "A full-stack video management platform where users can save, organize and manage their favourite YouTube, TikTok and Instagram videos by category.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+    links: {
+      demo: "https://youtube-app-frontend.vercel.app/",
+      github: "https://github.com/AlexFranciscoDev/youtube-app-frontend"
+    },
+    images: { cover: videoOrganizerCover },
     caseStudy: {
       overview:
-        "This case study is still being written up. Add the project description, the problem it solves, the stack, screenshots and links here before publishing.",
+        "Video Organizer is a MERN-stack application for building a personal video library. Authenticated users can save YouTube videos, organize them into categories and manage their collection through a React frontend connected to a REST API.",
+      problem:
+        "Useful videos often end up scattered across browser bookmarks, playlists or saved messages, making them difficult to find later. I wanted to build a central place where users could save and classify videos while practising the complete development of a full-stack application.",
+      solution:
+        "A REST API built with Node.js, Express and MongoDB handles authentication, videos and categories. The React frontend consumes this API and provides a simple interface where users can create categories and manage their own video collection. JWT authentication protects private routes and keeps each user’s content separate.",
+      features: [
+        "Email and password authentication using JWT",
+        "Add, edit and delete saved videos",
+        "Create and manage custom categories",
+        "Organize videos by category",
+        "Private video library for each authenticated user",
+        "Responsive interface built with React"
+      ],
+      challenges:
+        "The main challenge was designing the relationships between users, videos and categories while ensuring that each user could only access and modify their own content. Implementing protected routes, ownership validation and consistent error handling across the API also required careful planning.",
+      learnings:
+        "This project helped me understand how the different parts of a MERN application work together. I gained practical experience designing REST endpoints, modelling relationships with MongoDB and Mongoose, implementing JWT authentication and connecting a React frontend to a custom backend API.",
     },
   },
   {

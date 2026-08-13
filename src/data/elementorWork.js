@@ -22,7 +22,7 @@ export const elementorWork = [
   { id: "site-2", col: "2 / 3", row: "span 2", image: pulseSync, alt: "Pulse sync", url: "https://pulsesync.es/"},
   { id: "site-3", col: "3 / 4", row: "span 2", image: pintiCosmetics, alt: "Pinti cosmetics", url: " https://pinticosmetics.es/"},
   { id: "site-4", col: "1 / 2", row: "span 2", image: silktronics, alt: "Silktronics", url: " https://silktronics.com/"},
-  { id: "site-5", col: "2 / 3", row: "span 2", image: peiffers, alt: "Peiffers", url: "https://peiffersrealestate.com/"},
+  { id: "site-5", col: "2 / 3", row: "span 2", image: peiffers, alt: "Peiffers Real Estate", url: "https://peiffersrealestate.com/"},
   { id: "site-6", col: "3 / 4", row: "span 2", image: redesLevante, alt: "Redes de Levante", url: "https://redesdelevante.com/"},
   { id: "site-7", col: "1 / 2", row: "span 2", image: finquesGiramon, alt: "Finques Giramon", url: "https://finquesgiramon.com/"},
   { id: "site-8", col: "2 / 3", row: "span 2", image: luaYoga, alt: "Lua Yoga Estudio", url: "https://luayogaestudio.com/"},

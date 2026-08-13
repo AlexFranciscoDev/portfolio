@@ -38,7 +38,7 @@ export function ElementorWork() {
                 )}
                 {!item.placeholder && item.alt && (
                   <div className="pointer-events-none absolute inset-0 flex items-end bg-gradient-to-t from-ink/85 via-ink/10 to-transparent p-3 opacity-0 transition-opacity duration-200 ease-io group-hover:opacity-100">
-                    <p className="text-sm font-medium text-bone">{item.alt}</p>
+                    <p className="text-lg font-medium text-bone mb-2 ml-2">{item.alt}</p>
                   </div>
                 )}
                 {item.url && (
