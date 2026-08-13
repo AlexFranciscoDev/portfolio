@@ -36,6 +36,11 @@ export function ElementorWork() {
                     loading="lazy"
                   />
                 )}
+                {!item.placeholder && item.alt && (
+                  <div className="pointer-events-none absolute inset-0 flex items-end bg-gradient-to-t from-ink/85 via-ink/10 to-transparent p-3 opacity-0 transition-opacity duration-200 ease-io group-hover:opacity-100">
+                    <p className="text-sm font-medium text-bone">{item.alt}</p>
+                  </div>
+                )}
                 {item.url && (
                   <span className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-ink/80 text-bone opacity-0 backdrop-blur-sm transition-opacity duration-200 ease-io group-hover:opacity-100">
                     <ExternalLink size={14} strokeWidth={1.5} aria-hidden="true" />
