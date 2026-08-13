@@ -18,7 +18,8 @@ export function Button({ as, to, href, variant = "primary", className, children,
     className,
   );
 
-  const content = variant === "text" ? <span className="link-swap">{children}</span> : children;
+  const content =
+    variant === "text" ? <span className="link-swap inline-flex items-center gap-2">{children}</span> : children;
 
   if (to) {
     return (

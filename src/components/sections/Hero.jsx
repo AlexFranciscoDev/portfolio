@@ -39,10 +39,10 @@ export function Hero() {
             View my work
             <ArrowRight size={16} strokeWidth={1.5} aria-hidden="true" />
           </Button>
-          <Button href="/cv.pdf" download variant="text" className="gap-2 px-2 text-muted hover:text-ink">
-            <ArrowDownToLine size={16} strokeWidth={1.5} aria-hidden="true" />
-            Download CV
-          </Button>
+ <Button href="/cv.pdf" download variant="secondary">
+          Download CV
+          <ArrowDownToLine size={16} strokeWidth={1.5} aria-hidden="true" />
+        </Button>
         </Reveal>
       </Container>
     </section>
