@@ -22,7 +22,7 @@ export function ElementorWork() {
                 key={item.id}
                 {...wrapperProps}
                 style={{ gridColumn: item.col, gridRow: item.row }}
-                className="img-hover-trigger group relative overflow-hidden rounded-lg"
+                className="img-hover-trigger group relative overflow-hidden rounded-lg shadow-xl"
               >
                 {item.placeholder ? (
                   <div className="flex h-full w-full items-center justify-center bg-paper-alt text-muted-2">
