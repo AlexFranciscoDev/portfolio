@@ -1,4 +1,4 @@
-import rymatLevante from  '../assets/elementor/rymatLevante.png';
+import rymatLevante from  '../assets/elementor/rymatlevante.png';
 import pulseSync from  '../assets/elementor/pulse-sync.png';
 import pintiCosmetics from  '../assets/elementor/pintiCosmetics.png';
 import silktronics from  '../assets/elementor/silktronics.png';
