@@ -5,7 +5,7 @@ import { Button } from "../ui/Button";
 
 export function ProjectHero({ project }) {
   return (
-    <header className="pb-16 pt-32 sm:pt-40">
+    <header className="pb-16 pt-3 sm:pt-10">
       <Container>
         <Link to="/#selected-work" className="link-swap inline-flex items-center gap-2 text-sm text-muted">
           <ArrowLeft size={14} strokeWidth={1.5} aria-hidden="true" />

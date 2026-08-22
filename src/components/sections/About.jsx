@@ -1,11 +1,11 @@
 import { Container } from "../ui/Container";
 import { SectionTitle } from "../ui/SectionTitle";
 import { Reveal } from "../ui/Reveal";
-import alexPhoto from "../../assets/profile/alex.jpg";
+import alexPhoto from "../../assets/profile/alex.png";
 
 export function About() {
   return (
-    <section id="about" className="py-24 sm:py-32">
+    <section id="about" className="py-12 sm:py-20">
       <Container className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
         <Reveal className="lg:col-span-7">
           <SectionTitle kicker="About" title="From keeping real sites running to building the interfaces myself." />

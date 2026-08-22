@@ -8,7 +8,7 @@ export function OtherWork() {
   const projects = getOtherProjects();
 
   return (
-    <section id="other-work" className="py-24 sm:py-32">
+    <section id="other-work" className="py-12 sm:py-20">
       <Container>
         <Reveal>
           <SectionTitle kicker="Other Work" title="Smaller builds and practice challenges." />

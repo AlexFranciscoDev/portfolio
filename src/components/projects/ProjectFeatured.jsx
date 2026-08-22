@@ -9,7 +9,7 @@ export function ProjectFeatured({ project, index }) {
   const number = String(index + 1).padStart(2, "0");
 
   return (
-    <article className="grid grid-cols-1 items-center gap-10 py-16 first:pt-0 lg:grid-cols-12 lg:gap-8 lg:py-24">
+    <article className="grid grid-cols-1 items-center gap-10 py-16 first:pt-0 last:pb-0 lg:grid-cols-12 lg:gap-8 lg:py-24">
       <Reveal
         className={clsx("lg:col-span-5", reversed ? "lg:order-2" : "lg:order-1")}
       >

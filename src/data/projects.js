@@ -1,9 +1,15 @@
 import videoOrganizerCover from "../assets/projects/video-organizer/cover.jpg";
+import videoOrganizerDemo from "../assets/projects/video-organizer/demo.mp4";
 import socialBlogCover from "../assets/projects/social-blog/cover.jpg";
+import socialBlogDemo from "../assets/projects/social-blog/demo.mp4";
 import bonsaiCover from "../assets/projects/bonsai-landing/cover.jpg";
+import bonsaiDemo from "../assets/projects/bonsai-landing/demo.mp4";
 import interactiveCardCover from "../assets/projects/interactive-card/cover.jpg";
+import interactiveCardDemo from "../assets/projects/interactive-card/demo.mp4";
 import pokedexCover from "../assets/projects/pokedex/cover.jpg";
+import pokedexDemo from "../assets/projects/pokedex/demo.mp4";
 import weatherCover from "../assets/projects/weather-app/cover.jpg";
+import weatherDemo from "../assets/projects/weather-app/demo.mp4";
 
 export const projects = [
   // --- Featured / Selected Work ---
@@ -18,7 +24,7 @@ export const projects = [
       demo: "https://youtube-app-frontend.vercel.app/",
       github: "https://github.com/AlexFranciscoDev/youtube-app-frontend"
     },
-    images: { cover: videoOrganizerCover },
+    images: { cover: videoOrganizerCover, demo: videoOrganizerDemo },
     caseStudy: {
       overview:
         "Video Organizer is a MERN-stack application for building a personal video library. Authenticated users can save YouTube videos, organize them into categories and manage their collection through a React frontend connected to a REST API.",
@@ -52,7 +58,7 @@ export const projects = [
       demo: "https://blog-social-frontend.vercel.app/",
       github: "https://github.com/AlexFranciscoDev/Blog-social-frontend",
     },
-    images: { cover: socialBlogCover },
+    images: { cover: socialBlogCover, demo: socialBlogDemo },
     caseStudy: {
       overview:
         "Social Blog is a MERN-stack blogging platform built to practice the full loop of a production web app: authenticated users, CRUD content, image uploads and a REST API consumed by a React frontend.",
@@ -84,7 +90,7 @@ export const projects = [
       demo: "https://bonsai-app-alex-francisco-dev.netlify.app/",
       github: "https://github.com/AlexFranciscoDev/Bonsai_app",
     },
-    images: { cover: bonsaiCover },
+    images: { cover: bonsaiCover, demo: bonsaiDemo },
     caseStudy: {
       overview:
         "A front-end-only rebuild of Bonsai's pricing page, focused entirely on layout precision — spacing, alignment and responsive behavior — rather than backend logic.",
@@ -116,7 +122,7 @@ export const projects = [
       demo: "https://interactive-card-alex-francisco-dev.netlify.app",
       github: "https://github.com/AlexFranciscoDev/Interactive-card",
     },
-    images: { cover: interactiveCardCover },
+    images: { cover: interactiveCardCover, demo: interactiveCardDemo },
   },
   {
     slug: "pokedex",
@@ -129,7 +135,7 @@ export const projects = [
       demo: "https://pokedex-alex-francisco-dev.netlify.app",
       github: "https://github.com/AlexFranciscoDev/Pokedex_app",
     },
-    images: { cover: pokedexCover },
+    images: { cover: pokedexCover, demo: pokedexDemo },
   },
   {
     slug: "weather-app",
@@ -142,6 +148,6 @@ export const projects = [
       demo: "https://weather-app-alex-francisco-dev.netlify.app",
       github: "https://github.com/AlexFranciscoDev/Weather_app",
     },
-    images: { cover: weatherCover },
+    images: { cover: weatherCover, demo: weatherDemo },
   },
 ];

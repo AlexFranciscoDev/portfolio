@@ -8,7 +8,7 @@ export function SelectedWork() {
   const projects = getFeaturedProjects();
 
   return (
-    <section id="selected-work" className="py-24 sm:py-32">
+    <section id="selected-work" className="py-12 sm:py-20">
       <Container>
         <Reveal>
           <SectionTitle kicker="Selected Work" title="Projects I'd point a client or a recruiter to first." />

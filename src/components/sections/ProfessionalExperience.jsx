@@ -7,7 +7,7 @@ import { experience } from "../../data/experience";
 
 export function ProfessionalExperience() {
   return (
-    <section id="experience" className="py-24 sm:py-32">
+    <section id="experience" className="py-12 sm:py-20">
       <Container>
         <Reveal>
           <SectionTitle kicker="Professional Experience" title={`${experience.role} — ${experience.period}`} />

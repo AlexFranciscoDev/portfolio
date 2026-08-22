@@ -6,7 +6,7 @@ import { elementorWork } from "../../data/elementorWork";
 
 export function ElementorWork() {
   return (
-    <section id="elementor-work" className="py-24 sm:py-32">
+    <section id="elementor-work" className="py-12 sm:py-20">
       <Container>
         <Reveal>
           <SectionTitle kicker="Works" title="Client sites built with WordPress & Elementor." />

@@ -9,7 +9,7 @@ import { site } from "../data/site";
 function CaseStudyBlock({ title, children }) {
   return (
     <div className="border-t border-line py-10 first:border-t-0 first:pt-0">
-      <p className="mb-4 font-mono text-xs uppercase tracking-[0.1em] text-muted">{title}</p>
+      <p className="mb-4 font-mono text-xs uppercase tracking-[0.1em] text-teal">{title}</p>
       {children}
     </div>
   );
@@ -50,7 +50,22 @@ export function ProjectDetail() {
           </div>
         )}
 
-        <div className="mx-auto mt-16 max-w-2xl pb-24">
+        {project.images?.demo && (
+          <div className="mx-auto mt-16 max-w-2xl">
+            <p className="mb-4 font-mono text-xs uppercase tracking-[0.1em] text-teal">Demo</p>
+            <video
+              src={project.images.demo}
+              className="w-full rounded-lg border border-line"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+            />
+          </div>
+        )}
+
+        <div className="mx-auto mt-16 max-w-2xl pb-12 sm:pb-20">
           {caseStudy.overview && (
             <CaseStudyBlock title="Overview">
               <p className="leading-relaxed text-ink">{caseStudy.overview}</p>

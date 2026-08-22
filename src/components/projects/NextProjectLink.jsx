@@ -4,7 +4,7 @@ import { Container } from "../ui/Container";
 
 export function NextProjectLink({ project }) {
   return (
-    <Link to={`/projects/${project.slug}`} className="img-hover-trigger group block border-t border-line bg-paper-alt py-20">
+    <Link to={`/projects/${project.slug}`} className="img-hover-trigger group block border-t border-line bg-paper-alt py-12 sm:py-16">
       <Container className="flex items-center justify-between gap-6">
         <div>
           <p className="mb-3 font-mono text-xs uppercase tracking-[0.1em] text-muted">Next project</p>
